@@ -5,8 +5,6 @@
 	font-family: "Poppins";
 	font-style: normal;
 	font-weight: 500;
-	font-size: 32px;
-	color: #38B9FF;
 	border-width: 0;
 }
 
@@ -14,52 +12,92 @@
 	display: flex;
 	min-width: 320px;
 	max-width: 700px;
-	background-color: #34F7A5;
+	background-color: #F7F8FB;
 	margin: 0 auto 0 auto;
+	border-radius: 39px;
 }
 
 .work-zone {
-	width: 70%;
-	background-color: coral;
-	
+	width: 60%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 .log {
-	width: 30%;
-	background-color: wheat;
+	width: 40%;
 	height: 100%
 }
 
 .screen {
-	height: 50px;
+	height: 100px;
+	width: 308px;
 	background-color: white;
-	margin: 10px;
+	border-radius: 22px;
+	margin-top: 40px;
 }
 
 .buttons {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 20px;
 }
 
-.column {
-	width: 25%;
-}
-
-.button {
+.buttons-right {
+	display: flex;
 	flex-direction: column;
-	width: 100%;
-	height: 25%;
-	margin: 2px;
-	background-color: white;
-	border-radius: 12px;
+	width: 62px;
+	margin-left: 20px;
+}
+
+.buttons-main {
+	display: flex;
+	justify-content: space-between;
 	
 }
+.column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 62px;
+}
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 62px;
+	height: 60px;
+	background-color: white;
+	color: #38B9FF;
+	font-size: 32px;
+	border-radius: 12px;
+	margin-bottom: 20px;
+}
 
+.buttons-down {
+	display: flex;
+}
 .grey {
-	color: grey;
+	color: #858585;
 }
 
 .blue {
-	backgoround-color: blue;
+	background-color: #ADE2FF;
+	color: #109DFF;
+}
+
+.dark {
+	background-color: #19ACFF;
+	color: #B2DAFF;
+	box-shadow: -9px 13px 23px rgba(0, 163, 255, 0.65), inset -3px 4px 11px #B0DFFF;
+}
+
+.tall {
+	height: 100px;
+}
+
+.long {
+	width: 144px;
+	margin-right: 20px;
 }
