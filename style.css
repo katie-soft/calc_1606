@@ -73,12 +73,14 @@
 	justify-content: space-between;
 	
 }
+
 .column {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	width: 62px;
 }
+
 .button {
 	display: flex;
 	justify-content: center;
@@ -89,11 +91,19 @@
 	color: #38B9FF;
 	border-radius: 12px;
 	margin-bottom: 20px;
+	box-shadow: 0 0 7px 0;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+
+.button:hover {
+	background-color: #b7d3e373;
 }
 
 .buttons-down {
 	display: flex;
 }
+
 .grey {
 	color: #858585;
 }
@@ -109,6 +119,10 @@
 	box-shadow: -9px 13px 23px rgba(0, 163, 255, 0.65), inset -3px 4px 11px #B0DFFF;
 }
 
+.dark:hover {
+	background-color: white;
+}
+
 .tall {
 	height: 100px;
 }
@@ -116,6 +130,10 @@
 .long {
 	width: 144px;
 	margin-right: 20px;
+}
+
+.no-shadow {
+	box-shadow: none;
 }
 
 
